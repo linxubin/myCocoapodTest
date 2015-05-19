@@ -15,6 +15,7 @@
 		CE0BB1791B0AD0CF00F90340 /* cocoapodTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0BB1781B0AD0CF00F90340 /* cocoapodTestTests.m */; };
 		CEE595B61B0AE0C6002D3BFF /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE595B51B0AE0C6002D3BFF /* twoViewController.m */; };
 		CEE595B81B0B717D002D3BFF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CEE595B71B0B717D002D3BFF /* README.md */; };
+		CEE595BE1B0B7B20002D3BFF /* fourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE595BD1B0B7B20002D3BFF /* fourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		CEE595B41B0AE0C6002D3BFF /* twoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoViewController.h; sourceTree = "<group>"; };
 		CEE595B51B0AE0C6002D3BFF /* twoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
 		CEE595B71B0B717D002D3BFF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		CEE595BC1B0B7B20002D3BFF /* fourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourViewController.h; sourceTree = "<group>"; };
+		CEE595BD1B0B7B20002D3BFF /* fourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourViewController.m; sourceTree = "<group>"; };
 		DB2D00A9E25A25B731D15940 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -105,6 +108,8 @@
 				CE0BB1641B0AD0CF00F90340 /* ViewController.m */,
 				CEE595B41B0AE0C6002D3BFF /* twoViewController.h */,
 				CEE595B51B0AE0C6002D3BFF /* twoViewController.m */,
+				CEE595BC1B0B7B20002D3BFF /* fourViewController.h */,
+				CEE595BD1B0B7B20002D3BFF /* fourViewController.m */,
 				CE0BB1691B0AD0CF00F90340 /* Images.xcassets */,
 				CE0BB15C1B0AD0CF00F90340 /* Supporting Files */,
 			);
@@ -282,6 +287,7 @@
 			files = (
 				CE0BB1651B0AD0CF00F90340 /* ViewController.m in Sources */,
 				CE0BB1621B0AD0CF00F90340 /* AppDelegate.m in Sources */,
+				CEE595BE1B0B7B20002D3BFF /* fourViewController.m in Sources */,
 				CEE595B81B0B717D002D3BFF /* README.md in Sources */,
 				CE0BB15F1B0AD0CF00F90340 /* main.m in Sources */,
 				CEE595B61B0AE0C6002D3BFF /* twoViewController.m in Sources */,

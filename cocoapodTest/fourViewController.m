@@ -1,25 +1,23 @@
 //
-//  twoViewController.m
+//  fourViewController.m
 //  cocoapodTest
 //
 //  Created by LinXuBin on 15-5-19.
 //  Copyright (c) 2015年 LinXuBin. All rights reserved.
 //
 
-#import "twoViewController.h"
+#import "fourViewController.h"
 
-@interface twoViewController ()
+@interface fourViewController ()
 
 @end
 
-@implementation twoViewController
+@implementation fourViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
-    self.view.backgroundColor = [UIColor greenColor];
-    self.title = @"fuckyou";
+    self.title = @"wahah";
 }
 
 - (void)didReceiveMemoryWarning {
