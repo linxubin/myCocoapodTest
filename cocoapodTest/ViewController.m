@@ -31,6 +31,10 @@
     [self.view addSubview:label];
     
     
+    UIButton *btn = [[UIButton alloc] init];
+    [self.view addSubview:btn];
+    
+    
 }
 
 

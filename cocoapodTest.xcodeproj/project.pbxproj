@@ -14,6 +14,7 @@
 		CE0BB16A1B0AD0CF00F90340 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0BB1691B0AD0CF00F90340 /* Images.xcassets */; };
 		CE0BB1791B0AD0CF00F90340 /* cocoapodTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0BB1781B0AD0CF00F90340 /* cocoapodTestTests.m */; };
 		CEE595B81B0B717D002D3BFF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CEE595B71B0B717D002D3BFF /* README.md */; };
+		CEE595BB1B0B75C4002D3BFF /* threeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE595BA1B0B75C4002D3BFF /* threeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		CE0BB1781B0AD0CF00F90340 /* cocoapodTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoapodTestTests.m; sourceTree = "<group>"; };
 		CEE595B21B0AD548002D3BFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEE595B71B0B717D002D3BFF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		CEE595B91B0B75C4002D3BFF /* threeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threeViewController.h; sourceTree = "<group>"; };
+		CEE595BA1B0B75C4002D3BFF /* threeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeViewController.m; sourceTree = "<group>"; };
 		DB2D00A9E25A25B731D15940 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -100,6 +103,8 @@
 				CE0BB1611B0AD0CF00F90340 /* AppDelegate.m */,
 				CE0BB1631B0AD0CF00F90340 /* ViewController.h */,
 				CE0BB1641B0AD0CF00F90340 /* ViewController.m */,
+				CEE595B91B0B75C4002D3BFF /* threeViewController.h */,
+				CEE595BA1B0B75C4002D3BFF /* threeViewController.m */,
 				CE0BB1691B0AD0CF00F90340 /* Images.xcassets */,
 				CE0BB15C1B0AD0CF00F90340 /* Supporting Files */,
 			);
@@ -277,6 +282,7 @@
 			files = (
 				CE0BB1651B0AD0CF00F90340 /* ViewController.m in Sources */,
 				CE0BB1621B0AD0CF00F90340 /* AppDelegate.m in Sources */,
+				CEE595BB1B0B75C4002D3BFF /* threeViewController.m in Sources */,
 				CEE595B81B0B717D002D3BFF /* README.md in Sources */,
 				CE0BB15F1B0AD0CF00F90340 /* main.m in Sources */,
 			);
