@@ -14,6 +14,7 @@
 		CE0BB16A1B0AD0CF00F90340 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0BB1691B0AD0CF00F90340 /* Images.xcassets */; };
 		CE0BB1791B0AD0CF00F90340 /* cocoapodTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0BB1781B0AD0CF00F90340 /* cocoapodTestTests.m */; };
 		CEE595B61B0AE0C6002D3BFF /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE595B51B0AE0C6002D3BFF /* twoViewController.m */; };
+		CEE595B81B0B717D002D3BFF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CEE595B71B0B717D002D3BFF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		CEE595B21B0AD548002D3BFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEE595B41B0AE0C6002D3BFF /* twoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoViewController.h; sourceTree = "<group>"; };
 		CEE595B51B0AE0C6002D3BFF /* twoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
+		CEE595B71B0B717D002D3BFF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		DB2D00A9E25A25B731D15940 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 		CE0BB15C1B0AD0CF00F90340 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEE595B71B0B717D002D3BFF /* README.md */,
 				CE0BB15D1B0AD0CF00F90340 /* Info.plist */,
 				CE0BB15E1B0AD0CF00F90340 /* main.m */,
 			);
@@ -279,6 +282,7 @@
 			files = (
 				CE0BB1651B0AD0CF00F90340 /* ViewController.m in Sources */,
 				CE0BB1621B0AD0CF00F90340 /* AppDelegate.m in Sources */,
+				CEE595B81B0B717D002D3BFF /* README.md in Sources */,
 				CE0BB15F1B0AD0CF00F90340 /* main.m in Sources */,
 				CEE595B61B0AE0C6002D3BFF /* twoViewController.m in Sources */,
 			);
