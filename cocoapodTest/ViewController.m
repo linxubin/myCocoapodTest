@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "AFNetworking.h"
-#import "twoViewController.h"
+
 
 @interface ViewController ()
 
@@ -36,8 +36,8 @@
 
 - (void)test
 {
-    twoViewController *cc = [[twoViewController alloc] init];
-    [self.navigationController pushViewController:cc animated:YES];
+//    twoViewController *cc = [[twoViewController alloc] init];
+//    [self.navigationController pushViewController:cc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
