@@ -19,6 +19,8 @@
 
     
     self.view.backgroundColor = [UIColor greenColor];
+    
+    self.title = @"fuck";
 }
 
 - (void)didReceiveMemoryWarning {

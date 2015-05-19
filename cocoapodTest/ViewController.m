@@ -20,16 +20,17 @@
     [super viewDidLoad];
 
     self.view.backgroundColor = [UIColor orangeColor];
-    
+    self.title = @"nima";
     
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(110, 100, 100, 30)];
     label.textAlignment = NSTextAlignmentCenter;
-    label.backgroundColor = [UIColor greenColor];
+    label.backgroundColor = [UIColor orangeColor];
     label.text = @"林旭斌";
-    [self.view addSubview:label];
-    
     label.userInteractionEnabled = YES;
     [label addGestureRecognizer:[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(test)]];
+    [self.view addSubview:label];
+    
+    
 }
 
 
